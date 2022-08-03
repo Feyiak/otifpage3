@@ -1,0 +1,222 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 40px;
+    background: linear-gradient(180deg, #4C38EE 0%, #543DFF 100%);   
+}
+.headerText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;    
+}
+.flag{
+    height: 12.666667938232422px;
+width: 20.666667938232422px;
+left: 1.666015625px;
+top: 5.66650390625px;
+border-radius: 0px;
+}
+/* --------------------NAV BAR--------------------- */
+.heronavWrapper{
+    background: linear-gradient(122.29deg, #4C38EE 40.13%, rgba(76, 56, 238, 0.3) 133.77%);
+}
+.nav-link{
+    font-size: 16.9px;
+    font-weight: 600;
+}
+.fa-angle-down {
+    font-size: 10px;
+}
+/* ---------------------HERO------------------------ */
+.hero{
+    grid-template-columns: auto auto;
+}
+.heroIMG{
+   width: 100%;
+}
+.heroText{
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.optimization{
+font-size: 42px;
+font-weight: 600;
+line-height: 55px;
+text-align: left;
+}
+.heromessage{
+    font-size: 15px;
+}
+.startbtn{
+    padding: 10px 40px;
+    color: #291EF6;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+/* ------------------ABOUT US------------------------------ */
+
+.aboutuswrapper{
+    padding-top: 90px;
+}
+.aboutussection{
+    grid-template-columns: auto auto;
+}
+.aboutusheading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 49px;
+    color: #4C38EE;
+}
+.aboutustext{
+    font-weight: 500;
+}
+/* -----------------------CONTACT------------------------------ */
+.contactwrapper{
+    background: #4C38EE;
+   color: #ffffff;
+   padding: 40px 0;
+}
+.contactheading{
+    font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 50px;
+}
+.contactpassage{
+    font-weight: 300;
+}
+.request{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.requestbtn{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 23px;
+    background: #4C38EE;
+    border-color: #ffffff;
+}
+/* ----------------------NAVIGATION-------------------- */
+.navigationsections{
+    grid-template-columns: auto auto auto auto auto;
+}
+.navigationheading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0000FF;
+}
+.navigationtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+    padding-top: 8px;
+}
+.navigationemail::placeholder{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #C4C4C4;
+}
+.navigationemail{
+    padding: 15px 20px 15px 8px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(20,20,20,0.1);
+}
+.subscribebtn{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #3722D3;
+    border-radius: 5px;
+    border: none;
+}
+/* --------------------FOOTER---------------------- */
+footer{
+    border-top:1px solid #1e357c30;
+}
+.footerwrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.footertext{
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+align-items: center;
+color: #0000FF;
+}
+
+
+@media  screen and (max-width : 800px){
+    body{
+        text-align: center;
+    }
+    .hero{
+        grid-template-columns: auto;
+    }
+    .heroText{
+        padding-top: 10px;
+    }
+    .heroIMG{
+        width: 100%;
+        height: auto;
+    }
+    .aboutussection{
+        grid-template-columns: auto;
+    }
+    .navigationsections{
+        grid-template-columns: auto;
+    }
+    .footerwrapper{
+        display: block !important;
+    }
+    .aboutusimg img{
+        width: 100%;
+        height: auto;
+    }
+    .contactcontainer{
+        display: block !important;
+    }
+    .request{
+        padding-left: 0;
+    }
+    .navigationtexts{
+        padding-top: 0% !important;
+    }
+    .navigationsection{
+        padding-bottom: 30px;
+    }
+    .navigationemailwrapper {
+        padding-top: 10px!important;
+        justify-content: center;
+    }
+    .navigationemail{
+        padding: 15px 8px 15px 8px;
+    }
+    .optimization{
+        font-size: 35px;
+        text-align: center;
+    }
+    .otiflogotext{
+        text-align: left;
+    }
+    .footertext{
+        padding-bottom: 10px;
+    }
+    .nav-link{
+        padding-right: 0% !important;
+    }
+}
